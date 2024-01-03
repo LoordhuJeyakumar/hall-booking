@@ -150,7 +150,7 @@ app.get("/api/v1/bookedRooms", (request, response) => {
     });
   });
 
-  console.log(allBookedRooms);
+  
   //Send the response with enhanced booked room data
   response.status(200).json(allBookedRooms);
 });
