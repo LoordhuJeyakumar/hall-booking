@@ -3,16 +3,18 @@
 This API provides endpoints for managing room bookings, customers, and booking details and customer booking counts.
 
 ## **Links**
-## [Render Deployed URL 👈](https://nodejs-fs-8vkr.onrender.com/) 
-`https://nodejs-fs-8vkr.onrender.com/`
 
-## [Github repository URL 👈](https://github.com/LoordhuJeyakumar/NodeJS_FileSystem) 
+## [Render Deployed URL 👈](https://hall-booking-api-o14n.onrender.com)
 
-`https://github.com/LoordhuJeyakumar/NodeJS_FileSystem`
+`https://hall-booking-api-o14n.onrender.com`
 
-## [Postman documentation URL 👈](https://documenter.getpostman.com/view/27536086/2s9YsDjEPN)
+## [Github repository URL 👈](https://github.com/LoordhuJeyakumar/hall-booking)
 
-`https://documenter.getpostman.com/view/27536086/2s9YsDjEPN`
+`https://github.com/LoordhuJeyakumar/hall-booking`
+
+## [Postman documentation URL 👈](https://documenter.getpostman.com/view/27536086/2s9YsFEuE8)
+
+`https://documenter.getpostman.com/view/27536086/2s9YsFEuE8`
 
 ## **Endpoints:**
 

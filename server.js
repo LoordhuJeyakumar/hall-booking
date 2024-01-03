@@ -17,7 +17,82 @@ app.use(express.json());
 
 // Root route (homepage)
 app.get("/", (request, response) => {
-  response.send("<h1>Hall Booking System</h1>");
+  response.send(`<div>
+  
+    <h1 style="text-align: center;">Hall Booking System</h1>
+    <div style="display:flex; justify-content: center;">
+        <div>
+            <h2>GET API Endpoints</h2>
+            <ul>
+                <li>
+                    <div>
+                        <a href="/api/v1/rooms">View all rooms</a>
+                        <p><code>/api/v1/rooms</code></p>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a href="/api/v1/customers">View all customers</a>
+                        <p><code>/api/v1/customers</code></p>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div>
+                        <a href="/api/v1/bookingDetails">View all booking details</a>
+                        <p><code>/api/v1/bookingDetails</code></p>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a href="/api/v1/bookedRooms">View all booked rooms</a>
+                        <p><code>/api/v1/bookedRooms</code></p>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a href="/api/v1/customerBookings">View all customer wise booking details</a>
+                        <p><code>/api/v1/customerBookings</code></p>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a href="/api/v1/nonBookedRooms">View all non booked rooms details</a>
+                        <p><code>/api/v1/nonBookedRooms</code></p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div>
+        <h2>POST API Endpoints</h2>
+        <ul>
+            <li>
+                <div>
+                    <a href="/api/v1/createRoom">Create a new room</a>
+                    <p><code>/api/v1/createRoom</code></p>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <a href="/api/v1/booking">Book a room with customer details</a>
+                    <p><code>/api/v1/booking</code></p>
+                </div>
+            </li>
+
+
+            
+
+        </ul>
+    </div>
+  </div>
+  </div>`);
 });
 
 // API Endpoit to retrieve room details
