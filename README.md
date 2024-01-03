@@ -16,7 +16,7 @@ This API provides endpoints for managing room bookings, customers, and booking d
 
 ## **Endpoints:**
 
-- **<span style="color:#FFE460">POST</span> /api/v1/createRoom:**
+- **<p style="color:#FFE460">POST</p> /api/v1/createRoom:**
   - **Description:** Creates a new room in the system.
   - **Request Body:** Room details (name, capacity, etc.)
   - **Response:** 201 Created with the new room details on success, or appropriate error response.
